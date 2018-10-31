@@ -1,0 +1,11 @@
+E:\Crap\IHE\sourceCode\Version1\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\Crap\IHE\sourceCode\Version1\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+E:\Crap\IHE\sourceCode\Version1\DataAccess\bin\Debug\Microsoft.IHE.XDS.DataAccess.dll
+E:\Crap\IHE\sourceCode\Version1\DataAccess\bin\Debug\Microsoft.IHE.XDS.DataAccess.pdb
+E:\Crap\IHE\sourceCode\Version1\DataAccess\bin\Debug\Microsoft.IHE.XDS.Common.dll
+E:\Crap\IHE\sourceCode\Version1\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Crap\IHE\sourceCode\Version1\DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Crap\IHE\sourceCode\Version1\DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Crap\IHE\sourceCode\Version1\DataAccess\bin\Debug\Microsoft.IHE.XDS.Common.pdb
+E:\Crap\IHE\sourceCode\Version1\DataAccess\obj\Debug\Microsoft.IHE.XDS.DataAccess.dll
+E:\Crap\IHE\sourceCode\Version1\DataAccess\obj\Debug\Microsoft.IHE.XDS.DataAccess.pdb

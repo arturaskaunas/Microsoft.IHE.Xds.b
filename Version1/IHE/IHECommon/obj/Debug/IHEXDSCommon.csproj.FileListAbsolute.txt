@@ -1,0 +1,6 @@
+E:\Crap\IHE\sourceCode\Version1\IHE\IHECommon\bin\Debug\Microsoft.IHE.XDS.Common.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\IHECommon\bin\Debug\Microsoft.IHE.XDS.Common.pdb
+E:\Crap\IHE\sourceCode\Version1\IHE\IHECommon\obj\Debug\IHEXDSCommon.csproj.CoreCompileInputs.cache
+E:\Crap\IHE\sourceCode\Version1\IHE\IHECommon\obj\Debug\Microsoft.IHE.XDS.Common.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\IHECommon\obj\Debug\Microsoft.IHE.XDS.Common.pdb
+E:\Crap\IHE\sourceCode\Version1\IHE\IHECommon\obj\Debug\IHEXDSCommon.csprojResolveAssemblyReference.cache

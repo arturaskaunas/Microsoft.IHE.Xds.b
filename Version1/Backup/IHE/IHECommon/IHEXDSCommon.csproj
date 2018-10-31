@@ -1,0 +1,123 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{62EFB4D7-95D5-4268-A570-BFA56F3F8695}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.IHE.XDS.Common</RootNamespace>
+    <AssemblyName>Microsoft.IHE.XDS.Common</AssemblyName>
+    <SccProjectName>%24/ihe/Version1/IHE/IHECommon</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>https://tfs03.codeplex.com</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Association.cs" />
+    <Compile Include="ATNA\AuditMessageConfiguration.cs" />
+    <Compile Include="ATNA\AuditMessageParameterConfiguration.cs" />
+    <Compile Include="AuditMessage.cs" />
+    <Compile Include="Author.cs" />
+    <Compile Include="BSDSysLog\BSDSysLogUDP.cs" />
+    <Compile Include="CodeValue.cs" />
+    <Compile Include="CodeType.cs" />
+    <Compile Include="CommonUtility.cs" />
+    <Compile Include="DocumentEntry.cs" />
+    <Compile Include="DocumentRepositoryLog.cs" />
+    <Compile Include="FolderCodeList.cs" />
+    <Compile Include="GetSubmissionSetsRequests.cs" />
+    <Compile Include="GlobalValues.cs" />
+    <Compile Include="Folder.cs" />
+    <Compile Include="Patient.cs" />
+    <Compile Include="PatientIdentityFeed\PatientDuplicateEntry.cs" />
+    <Compile Include="PatientIdentityFeed\PatientIdentityFeedRecord.cs" />
+    <Compile Include="PatientIdentityFeed\PatientMessageConfiguration.cs" />
+    <Compile Include="PatientIdentityFeed\RegistryXmlEntries.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistryError.cs" />
+    <Compile Include="RegistryErrorList.cs" />
+    <Compile Include="RegistryLog.cs" />
+    <Compile Include="RegistryStoredQuery\StoredQuery.cs" />
+    <Compile Include="RegistryStoredQuery\StoredQueryParameter.cs" />
+    <Compile Include="RegistryStoredQuery\SubmissionSetAssociation.cs" />
+    <Compile Include="RetrieveDocumentSet.cs" />
+    <Compile Include="SubmissionSetDocumentFolder.cs" />
+    <Compile Include="SubmitObjectBase.cs" />
+    <Compile Include="SubmissionSet.cs" />
+    <Compile Include="XDSError.cs" />
+    <Compile Include="XDSResponse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Schemas\IHEXDS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\IHEXDS.xsx">
+      <DependentUpon>IHEXDS.xsd</DependentUpon>
+    </None>
+    <None Include="Schemas\schema\cms.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\schema\cms.xsx">
+      <DependentUpon>cms.xsd</DependentUpon>
+    </None>
+    <None Include="Schemas\schema\lcm.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\schema\lcm.xsx">
+      <DependentUpon>lcm.xsd</DependentUpon>
+    </None>
+    <None Include="Schemas\schema\query.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\schema\query.xsx">
+      <DependentUpon>query.xsd</DependentUpon>
+    </None>
+    <None Include="Schemas\schema\rim.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\schema\rim.xsx">
+      <DependentUpon>rim.xsd</DependentUpon>
+    </None>
+    <None Include="Schemas\schema\rs.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\schema\rs.xsx">
+      <DependentUpon>rs.xsd</DependentUpon>
+    </None>
+    <None Include="_XDSCommon.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

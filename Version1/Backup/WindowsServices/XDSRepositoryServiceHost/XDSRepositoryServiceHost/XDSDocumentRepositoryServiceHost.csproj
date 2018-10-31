@@ -1,0 +1,129 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BB9F8C02-1670-403C-8C8B-8EFD01789D95}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.IHE.XDS.DocumentRepository.XDSDocumentRepositoryServiceHost</RootNamespace>
+    <AssemblyName>XDSDocumentRepositoryServiceHost</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>%24/ihe/Version1/WindowsServices/XDSRepositoryServiceHost/XDSRepositoryServiceHost</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>https://tfs03.codeplex.com</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XDSDocumentRepositoryServiceHost.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XDSDocumentRepositoryServiceHost.Designer.cs">
+      <DependentUpon>XDSDocumentRepositoryServiceHost.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Schemas\IHEXDS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\IHEXDS.xsx">
+      <DependentUpon>IHEXDS.xsd</DependentUpon>
+    </None>
+    <None Include="Schemas\schema\cms.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\schema\cms.xsx">
+      <DependentUpon>cms.xsd</DependentUpon>
+    </None>
+    <None Include="Schemas\schema\lcm.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\schema\lcm.xsx">
+      <DependentUpon>lcm.xsd</DependentUpon>
+    </None>
+    <None Include="Schemas\schema\query.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\schema\query.xsx">
+      <DependentUpon>query.xsd</DependentUpon>
+    </None>
+    <None Include="Schemas\schema\rim.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\schema\rim.xsx">
+      <DependentUpon>rim.xsd</DependentUpon>
+    </None>
+    <None Include="Schemas\schema\rs.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\schema\rs.xsx">
+      <DependentUpon>rs.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BusinessLogic\BusinessLogic.csproj">
+      <Project>{45FB4A2D-90D1-4143-A457-5A47510382F0}</Project>
+      <Name>BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\IHE\IHECommon\IHEXDSCommon.csproj">
+      <Project>{62EFB4D7-95D5-4268-A570-BFA56F3F8695}</Project>
+      <Name>IHEXDSCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\IHE\RepositoryProfile\DocumentRepository.csproj">
+      <Project>{B463676C-5D3B-401B-A203-3F3A87239F82}</Project>
+      <Name>DocumentRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ScriptedInstaller\ScriptedInstaller.csproj">
+      <Project>{7A345162-208A-4083-B4CF-196F73256BE1}</Project>
+      <Name>ScriptedInstaller</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

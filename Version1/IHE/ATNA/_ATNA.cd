@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Microsoft.IHE.ATNA.AuditMessage">
+    <Position X="4" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>AuditMessage.cs</FileName>
+      <HashCode>EAAAAABAAIAAAAADAAAAAAAAAAAAAAAAAQAABAAAAIA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EventIdentification" />
+      <Property Name="ActiveParticipant" />
+      <Property Name="AuditSourceIdentification" />
+      <Property Name="ParticipantObjectIdentification" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Microsoft.IHE.ATNA.EventIdentificationType">
+    <Position X="0.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>AuditMessage.cs</FileName>
+      <HashCode>ACAAAAAAMAAACAAAAAYAAEAACYAAAAQAAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.IHE.ATNA.CodedValueType" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>AuditMessage.cs</FileName>
+      <HashCode>YEAAAAAAABAAAAAAAAAEQAAAIAAAAAAMAAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.IHE.ATNA.TypeValuePairType" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>AuditMessage.cs</FileName>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAADACAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.IHE.ATNA.ParticipantObjectIdentificationType">
+    <Position X="8" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <FileName>AuditMessage.cs</FileName>
+      <HashCode>AGAAAgAFAAAAAQAAAAAACCAEAIQAgEAAIEIgAkEAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.IHE.ATNA.AuditSourceIdentificationType">
+    <Position X="4" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>AuditMessage.cs</FileName>
+      <HashCode>AAAAAAAIAABAAAAAAAAAAAAgQAAAAgAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.IHE.ATNA.ActiveParticipantType">
+    <Position X="3.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>AuditMessage.cs</FileName>
+      <HashCode>CAACAAAAAAAAABCAAAEAkAgAAAIAAAgEBQABAAJAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.IHE.ATNA.AuditMessageActiveParticipant">
+    <Position X="4" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>AuditMessage.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Microsoft.IHE.ATNA.IAuditTrail">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>IAuditTrail.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Microsoft.IHE.ATNA.EventIdentificationTypeEventActionCode" Collapsed="true">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>AuditMessage.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhgACAQA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.IHE.ATNA.EventIdentificationTypeEventOutcomeIndicator" Collapsed="true">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>AuditMessage.cs</FileName>
+      <HashCode>AAAAAEAAAIBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

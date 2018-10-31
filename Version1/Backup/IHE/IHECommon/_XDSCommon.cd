@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Microsoft.IHE.XDS.Common.CodedValue">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CodedValue.cs</FileName>
+      <HashCode>AAAAEAAAABAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Microsoft.IHE.XDS.Common.CodeSet">
+    <Position X="1" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CodeSet.cs</FileName>
+      <HashCode>EAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="CodedValues" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Microsoft.IHE.XDS.Common.Patient">
+    <Position X="11.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Patient.cs</FileName>
+      <HashCode>AAQAAIAAAAAAAAAAAAQAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Microsoft.IHE.XDS.Common.SubmitObjectBase">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SubmitObjectBase.cs</FileName>
+      <HashCode>AAQkAAAAQAAAAEAAAAQBAAAAAQAAAAAAAAAAAAAAJAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Microsoft.IHE.XDS.Common.Folder">
+    <Position X="1.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Folder.cs</FileName>
+      <HashCode>AAAIAAAACAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="CodeList" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="CodeList" Type="Microsoft.IHE.XDS.Common.CodedValue" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.906" Y="5.483" />
+        <Point X="2.906" Y="6.688" />
+        <Point X="5" Y="6.688" />
+      </Path>
+    </AssociationLine>
+  </Class>
+  <Class Name="Microsoft.IHE.XDS.Common.SubmissionSet">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SubmissionSet.cs</FileName>
+      <HashCode>AAAIAAAACAAAAAAgAAAAAAgACAAAABAgAAARIAAgAQA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ContentType" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="DocumentList" />
+      <Property Name="FolderList" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Microsoft.IHE.XDS.Common.Author">
+    <Position X="11.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Author.cs</FileName>
+      <HashCode>AIAAAAAAAABAAAAAUAAAABIAAAACAAAAAAAAAACAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Microsoft.IHE.XDS.Common.DocumentEntry">
+    <Position X="8" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>DocumentEntry.cs</FileName>
+      <HashCode>AAoDANAKBwJghgQKAIAkAAgAACAIAACCEARghEAEAQA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DocumentPatient" />
+      <Property Name="DocumentAuthor" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+</ClassDiagram>

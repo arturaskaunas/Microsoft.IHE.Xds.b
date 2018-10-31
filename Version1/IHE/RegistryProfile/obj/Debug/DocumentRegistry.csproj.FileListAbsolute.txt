@@ -1,0 +1,15 @@
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\obj\Debug\DocumentRegistry.csprojResolveAssemblyReference.cache
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\obj\Debug\DocumentRegistry.csproj.CoreCompileInputs.cache
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\bin\Debug\Microsoft.IHE.XDS.DocumentRegistry.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\bin\Debug\Microsoft.IHE.XDS.DocumentRegistry.pdb
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\bin\Debug\Microsoft.IHE.XDS.BusinessLogic.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\bin\Debug\Microsoft.IHE.XDS.Common.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\bin\Debug\Microsoft.IHE.XDS.DataAccess.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\bin\Debug\Microsoft.IHE.XDS.BusinessLogic.pdb
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\bin\Debug\Microsoft.IHE.XDS.DataAccess.pdb
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\bin\Debug\Microsoft.IHE.XDS.Common.pdb
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\obj\Debug\Microsoft.IHE.XDS.DocumentRegistry.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\RegistryProfile\obj\Debug\Microsoft.IHE.XDS.DocumentRegistry.pdb

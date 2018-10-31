@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Microsoft.IHE.XDS.Adapters.DocumentSourceAdapter" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <FileName>DocumentSourceAdapter.cs</FileName>
+      <HashCode>AAAACAAAAAAAAAAAwAAAAAACAAAAAAAAAACAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.IHE.XDS.Adapters.RepositoryServices.XDSDocumentRepositoryClient" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <FileName>Service References\RepositoryServices.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Microsoft.IHE.XDS.Adapters.RepositoryServices.IXDSDocumentRepository">
+    <Position X="6" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Service References\RepositoryServices.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>

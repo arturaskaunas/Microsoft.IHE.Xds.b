@@ -1,0 +1,10 @@
+E:\Crap\IHE\sourceCode\Version1\IHE\StorageProvider\obj\Debug\StorageProvider.csprojResolveAssemblyReference.cache
+E:\Crap\IHE\sourceCode\Version1\IHE\StorageProvider\obj\Debug\StorageProvider.csproj.CoreCompileInputs.cache
+E:\Crap\IHE\sourceCode\Version1\IHE\StorageProvider\bin\Debug\Microsoft.IHE.XDS.DocumentRepository.StorageProvider.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\StorageProvider\bin\Debug\Microsoft.IHE.XDS.DocumentRepository.StorageProvider.pdb
+E:\Crap\IHE\sourceCode\Version1\IHE\StorageProvider\bin\Debug\Microsoft.IHE.XDS.DataAccess.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\StorageProvider\bin\Debug\Microsoft.IHE.XDS.Common.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\StorageProvider\bin\Debug\Microsoft.IHE.XDS.DataAccess.pdb
+E:\Crap\IHE\sourceCode\Version1\IHE\StorageProvider\bin\Debug\Microsoft.IHE.XDS.Common.pdb
+E:\Crap\IHE\sourceCode\Version1\IHE\StorageProvider\obj\Debug\Microsoft.IHE.XDS.DocumentRepository.StorageProvider.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\StorageProvider\obj\Debug\Microsoft.IHE.XDS.DocumentRepository.StorageProvider.pdb

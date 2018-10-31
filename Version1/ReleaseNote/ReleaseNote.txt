@@ -1,0 +1,18 @@
+
+===========================================
+Release Date: 13-June-2008
+
+Bugs fixed:
+
+1. Missing associationType column in stored procedure "usp_get_SubmissionSetDocumentFolder_By_EntryUUID_Or_UniqueID"
+
+2. Patient Merge functionality - Expected request xml was of invalid format.
+
+Enhancements:
+
+1. Updated code to completely remove dynamic SQL queries. All Registry Stored Query transactions now uses stored procedures.
+
+2. Updated "PatientRegistryDuplicatesResolved.xml" sample request xml in XDSTestHarness.
+
+===========================================
+

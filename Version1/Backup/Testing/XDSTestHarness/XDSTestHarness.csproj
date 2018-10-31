@@ -1,0 +1,131 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D4DF0405-B954-4B83-BEF2-38B77A2A1146}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.XDS.Test</RootNamespace>
+    <AssemblyName>XDSTestHarness</AssemblyName>
+    <SccProjectName>%24/ihe/Version1/Testing/XDSTestHarness</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>https://tfs03.codeplex.com</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DocumentRequest.cs" />
+    <Compile Include="frmUIDGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUIDGenerator.Designer.cs">
+      <DependentUpon>frmUIDGenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMetadataConversion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMetadataConversion.Designer.cs">
+      <DependentUpon>frmMetadataConversion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIheTstHarness.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIheTstHarness.Designer.cs">
+      <DependentUpon>frmIheTstHarness.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMetadataConversion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMetadataConversion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIheTstHarness.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmIheTstHarness.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUIDGenerator.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUIDGenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\XDSRegistry.map" />
+    <None Include="Service References\XDSRepository.map" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ProvideAndRegisterDocumentSetRequest.cs" />
+    <Compile Include="Service References\XDSRegistry.cs">
+      <DependentUpon>XDSRegistry.map</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\XDSRepository.cs">
+      <DependentUpon>XDSRepository.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sample Messages\PatientRegistryDuplicatesResolved.xml" />
+    <Content Include="Sample Messages\PatientRegistryRecordAdded.xml" />
+    <Content Include="Sample Messages\PatientRegistryRecordRevised.xml" />
+    <Content Include="Sample Messages\ProvideAndRegisterDocumentSetRequest.xml" />
+    <Content Include="Sample Messages\RegisterDocumentSetRequest.xml" />
+    <Content Include="Sample Messages\Sample Image.jpg" />
+    <Content Include="Sample Messages\Sample Text.txt" />
+    <Content Include="Sample Messages\StoredQueryGetDocumentRequest.xml" />
+    <Content Include="TransformFiles\ebRIM_21_to30_Conversion1.xslt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

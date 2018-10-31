@@ -1,0 +1,9 @@
+E:\Crap\IHE\sourceCode\Version1\IHE\DocumentConsumerAdapter\bin\Debug\Microsoft.IHE.XDS.Adapters.DocumentConsumerAdapter.dll.config
+E:\Crap\IHE\sourceCode\Version1\IHE\DocumentConsumerAdapter\bin\Debug\Microsoft.IHE.XDS.Adapters.DocumentConsumerAdapter.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\DocumentConsumerAdapter\bin\Debug\Microsoft.IHE.XDS.Adapters.DocumentConsumerAdapter.pdb
+E:\Crap\IHE\sourceCode\Version1\IHE\DocumentConsumerAdapter\bin\Debug\Microsoft.IHE.XDS.Common.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\DocumentConsumerAdapter\bin\Debug\Microsoft.IHE.XDS.Common.pdb
+E:\Crap\IHE\sourceCode\Version1\IHE\DocumentConsumerAdapter\obj\Debug\DocumentConsumerAdapter.csprojResolveAssemblyReference.cache
+E:\Crap\IHE\sourceCode\Version1\IHE\DocumentConsumerAdapter\obj\Debug\DocumentConsumerAdapter.csproj.CoreCompileInputs.cache
+E:\Crap\IHE\sourceCode\Version1\IHE\DocumentConsumerAdapter\obj\Debug\Microsoft.IHE.XDS.Adapters.DocumentConsumerAdapter.dll
+E:\Crap\IHE\sourceCode\Version1\IHE\DocumentConsumerAdapter\obj\Debug\Microsoft.IHE.XDS.Adapters.DocumentConsumerAdapter.pdb

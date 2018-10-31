@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tns:SubmitObjectsRequest xmlns:tns="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0">
+	<RegistryObjectList xmlns="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0">
+		<ObjectRef id="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b518fff"/>
+		<ObjectRef id="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd"/>
+		<ObjectRef id="urn:uuid:f64ffdf0-4b97-4e06-b79f-a52b38ec2f8a"/>
+		<ObjectRef id="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8"/>
+		<ObjectRef id="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832"/>
+		<ObjectRef id="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446"/>
+		<ObjectRef id="urn:uuid:d9d542f3-6cc4-48b6-8870-ea235fbc94c2"/>
+		<ObjectRef id="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1"/>
+		<ObjectRef id="urn:uuid:aa543740-bdda-424e-8c96-df4873be8500"/>
+		<ObjectRef id="urn:uuid:75df8f67-9973-4fbe-a900-df66cefecc5a"/>
+		<ObjectRef id="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f"/>
+		<ObjectRef id="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d"/>
+		<ObjectRef id="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead"/>
+		<ObjectRef id="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983"/>
+		<ObjectRef id="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a"/>
+		<ObjectRef id="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab"/>
+		<ObjectRef id="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427"/>
+		<ObjectRef id="urn:uuid:a7058bb9-b4e4-4307-ba5b-e3f0ab85e12d"/>
+		<ObjectRef id="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d"/>
+		<ExtrinsicObject id="Document01" mimeType="text/xml" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1">
+			<Slot name="creationTime">
+				<ValueList>
+					<Value>20051224</Value>
+				</ValueList>
+			</Slot>
+			<Slot name="languageCode">
+				<ValueList>
+					<Value>en-us</Value>
+				</ValueList>
+			</Slot>
+			<Slot name="serviceStartTime">
+				<ValueList>
+					<Value>200412230800</Value>
+				</ValueList>
+			</Slot>
+			<Slot name="serviceStopTime">
+				<ValueList>
+					<Value>200412230801</Value>
+				</ValueList>
+			</Slot>
+			<Slot name="hash">
+				<ValueList>
+					<Value>4cf4f82d78b5e2aac35c31bca8cb79fe6bd6a41e</Value>
+				</ValueList>
+			</Slot>
+			<Slot name="size">
+				<ValueList>
+					<Value>54449</Value>
+				</ValueList>
+			</Slot>
+			<Slot name="repositoryUniqueId">
+				<ValueList>
+					<Value>RepositoryUniqueID1</Value>
+				</ValueList>
+			</Slot>
+			<Slot name="sourcePatientId">
+				<ValueList>
+					<Value>89765a87b^^^fj34r</Value>
+				</ValueList>
+			</Slot>
+			<Slot name="sourcePatientInfo">
+				<ValueList>
+					<Value>PID-3|pid1^^^domain</Value>
+					<Value>PID-5|Doe^John^^^</Value>
+					<Value>PID-7|19560527</Value>
+					<Value>PID-8|M</Value>
+					<Value>PID-11|100 Main St^^Metropolis^Il^44130^USA</Value>
+				</ValueList>
+			</Slot>
+			<Name>
+				<LocalizedString value="Physical"/>
+			</Name>
+			<Description/>
+			<Classification id="urn:uuid:39a39bf8-1097-ca1b-3ef8-59bdfbf3d5bd" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="Document01" nodeRepresentation="">
+				<Slot name="authorPerson">
+					<ValueList>
+						<Value>^Smitty^Gerald^^^Dr^MD</Value>
+					</ValueList>
+				</Slot>
+				<Slot name="authorInstitution">
+					<ValueList>
+						<Value>Cleveland Clinic</Value>
+						<Value>Parma Community</Value>
+					</ValueList>
+				</Slot>
+				<Slot name="authorRole">
+					<ValueList>
+						<Value>Attending</Value>
+					</ValueList>
+				</Slot>
+				<Slot name="authorSpecialty">
+					<ValueList>
+						<Value>Orthopedic</Value>
+					</ValueList>
+				</Slot>
+			</Classification>
+			<Classification id="urn:uuid:08cfd195-eb3b-a5cf-bfda-8137717dd0e4" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="Document01" nodeRepresentation="">
+				<Slot name="authorPerson">
+					<ValueList>
+						<Value>^Dopplemeyer^Sherry^^^Dr^MD</Value>
+					</ValueList>
+				</Slot>
+				<Slot name="authorInstitution">
+					<ValueList>
+						<Value>Cleveland Clinic</Value>
+						<Value>Berea Community</Value>
+					</ValueList>
+				</Slot>
+				<Slot name="authorRole">
+					<ValueList>
+						<Value>Primary Surgon</Value>
+					</ValueList>
+				</Slot>
+				<Slot name="authorSpecialty">
+					<ValueList>
+						<Value>Orthopedic</Value>
+					</ValueList>
+				</Slot>
+			</Classification>
+			<Classification id="urn:uuid:bc5c1dd7-f5ff-6819-d8b3-870547500c0d" classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="Document01" nodeRepresentation="History and Physical">
+				<Slot name="codingScheme">
+					<ValueList>
+						<Value>Connect-a-thon classCodes</Value>
+					</ValueList>
+				</Slot>
+				<Name>
+					<LocalizedString value="History and Physical"/>
+				</Name>
+			</Classification>
+			<Classification id="urn:uuid:1ef3ecaf-9c9e-f89f-6029-33014a2c8295" classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="Document01" nodeRepresentation="1.3.6.1.4.1.21367.2006.7.101">
+				<Slot name="codingScheme">
+					<ValueList>
+						<Value>Connect-a-thon confidentialityCodes</Value>
+					</ValueList>
+				</Slot>
+				<Name>
+					<LocalizedString value="Clinical-Staff"/>
+				</Name>
+			</Classification>
+			<Classification id="urn:uuid:6ba91ab4-1629-816d-d7f3-440a2e8da8a2" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="Document01" nodeRepresentation="CDAR2/IHE 1.0">
+				<Slot name="codingScheme">
+					<ValueList>
+						<Value>Connect-a-thon formatCodes</Value>
+					</ValueList>
+				</Slot>
+				<Name>
+					<LocalizedString value="CDAR2/IHE 1.0"/>
+				</Name>
+			</Classification>
+			<Classification id="urn:uuid:8dc193b9-e2d6-3b66-4db7-1d33ed986f9b" classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="Document01" nodeRepresentation="Outpatient">
+				<Slot name="codingScheme">
+					<ValueList>
+						<Value>Connect-a-thon healthcareFacilityTypeCodes</Value>
+					</ValueList>
+				</Slot>
+				<Name>
+					<LocalizedString value="Outpatient"/>
+				</Name>
+			</Classification>
+			<Classification id="urn:uuid:9dff3867-05b7-330f-eb32-ebbb3116b29e" classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="Document01" nodeRepresentation="General Medicine">
+				<Slot name="codingScheme">
+					<ValueList>
+						<Value>Connect-a-thon practiceSettingCodes</Value>
+					</ValueList>
+				</Slot>
+				<Name>
+					<LocalizedString value="General Medicine"/>
+				</Name>
+			</Classification>
+			<Classification id="urn:uuid:54a8048a-ab27-5249-bd1f-03537594d5cd" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="Document01" nodeRepresentation="34108-1">
+				<Slot name="codingScheme">
+					<ValueList>
+						<Value>LOINC</Value>
+					</ValueList>
+				</Slot>
+				<Name>
+					<LocalizedString value="Outpatient Evaluation And Management"/>
+				</Name>
+			</Classification>
+			<ExternalIdentifier id="urn:uuid:876968a5-3a25-a525-6b0e-f010f8f17851" registryObject="Document01" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="$PatientId">
+				<Name>
+					<LocalizedString value="XDSDocumentEntry.patientId"/>
+				</Name>
+			</ExternalIdentifier>
+			<ExternalIdentifier id="urn:uuid:ef494d5c-da57-44fa-a42e-0be9be5501bf" registryObject="Document01" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="$uniqueId01">
+				<Name>
+					<LocalizedString value="XDSDocumentEntry.uniqueId"/>
+				</Name>
+			</ExternalIdentifier>
+		</ExtrinsicObject>
+		<RegistryPackage id="SubmissionSet01">
+			<Slot name="submissionTime">
+				<ValueList>
+					<Value>20041225235050</Value>
+				</ValueList>
+			</Slot>
+			<Name>
+				<LocalizedString value="Physical"/>
+			</Name>
+			<Description>
+				<LocalizedString value="Annual physical"/>
+			</Description>
+			<Classification id="urn:uuid:ff162d03-5aa0-27c1-2d4a-171c97637fee" classificationScheme="urn:uuid:a7058bb9-b4e4-4307-ba5b-e3f0ab85e12d" classifiedObject="SubmissionSet01" nodeRepresentation="">
+				<Slot name="authorPerson">
+					<ValueList>
+						<Value>^Dopplemeyer^Sherry^^^Dr^MD</Value>
+					</ValueList>
+				</Slot>
+				<Slot name="authorInstitution">
+					<ValueList>
+						<Value>Cleveland Clinic</Value>
+						<Value>Berea Community</Value>
+					</ValueList>
+				</Slot>
+				<Slot name="authorRole">
+					<ValueList>
+						<Value>Primary Surgon</Value>
+					</ValueList>
+				</Slot>
+				<Slot name="authorSpecialty">
+					<ValueList>
+						<Value>Orthopedic</Value>
+					</ValueList>
+				</Slot>
+			</Classification>
+			<Classification id="urn:uuid:e99e638b-2cc4-d369-98e3-dc44eb828a6d" classificationScheme="urn:uuid:aa543740-bdda-424e-8c96-df4873be8500" classifiedObject="SubmissionSet01" nodeRepresentation="History and Physical">
+				<Slot name="codingScheme">
+					<ValueList>
+						<Value>Connect-a-thon contentTypeCodes</Value>
+					</ValueList>
+				</Slot>
+				<Name>
+					<LocalizedString value="History and Physical"/>
+				</Name>
+			</Classification>
+			<ExternalIdentifier id="urn:uuid:1e240d09-b3fd-e511-e30d-4873048cadee" registryObject="SubmissionSet01" identificationScheme="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" value="$uniqueId02">
+				<Name>
+					<LocalizedString value="XDSSubmissionSet.uniqueId"/>
+				</Name>
+			</ExternalIdentifier>
+			<ExternalIdentifier id="urn:uuid:3f758d66-43c6-9dd5-1163-ec1b0e6f48bf" registryObject="SubmissionSet01" identificationScheme="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" value="1.3.6.1.4.1.21367.2005.3.999.900">
+				<Name>
+					<LocalizedString value="XDSSubmissionSet.sourceId"/>
+				</Name>
+			</ExternalIdentifier>
+			<ExternalIdentifier id="urn:uuid:4634a968-5332-901b-a8b2-4dd2a882704c" registryObject="SubmissionSet01" identificationScheme="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" value="$PatientId">
+				<Name>
+					<LocalizedString value="XDSSubmissionSet.patientId"/>
+				</Name>
+			</ExternalIdentifier>
+		</RegistryPackage>
+		<Classification id="urn:uuid:d142ba37-bb86-0782-c34b-2588df6e1304" classifiedObject="SubmissionSet01" classificationNode="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd"/>
+		<RegistryPackage id="Folder">
+			<Name>
+				<LocalizedString value="FOLDER"/>
+			</Name>
+			<Description>
+				<LocalizedString value="comments go here"/>
+			</Description>
+			<ExternalIdentifier id="urn:uuid:61da4fea-26d5-9725-57eb-d9441eb1b6a2" registryObject="Folder" identificationScheme="urn:uuid:75df8f67-9973-4fbe-a900-df66cefecc5a" value="$uniqueId03">
+				<Name>
+					<LocalizedString value="XDSFolder.uniqueId"/>
+				</Name>
+			</ExternalIdentifier>
+			<ExternalIdentifier id="urn:uuid:2876acb1-e84c-9fe4-d356-f98d6e8afd82" registryObject="Folder" identificationScheme="urn:uuid:f64ffdf0-4b97-4e06-b79f-a52b38ec2f8a" value="$PatientId">
+				<Name>
+					<LocalizedString value="XDSFolder.patientId"/>
+				</Name>
+			</ExternalIdentifier>
+		</RegistryPackage>
+		<Classification id="urn:uuid:551be405-8d35-ef7a-8912-5b67e1bad051" classifiedObject="Folder" classificationNode="urn:uuid:d9d542f3-6cc4-48b6-8870-ea235fbc94c2"/>
+		<Association id="urn:uuid:648643b1-13cf-28d5-8ced-fd0aeaa319ed" associationType="HasMember" sourceObject="SubmissionSet01" targetObject="Folder"/>
+		<Association id="urn:uuid:adf730c2-3bfb-c179-c545-774af0d36cef" associationType="HasMember" sourceObject="Folder" targetObject="Document01"/>
+		<Association id="urn:uuid:8ab69c8f-67a5-fc01-6586-089e9cf6d7b5" associationType="HasMember" sourceObject="SubmissionSet01" targetObject="Document01">
+			<Slot name="SubmissionSetStatus">
+				<ValueList>
+					<Value>Original</Value>
+				</ValueList>
+			</Slot>
+		</Association>
+	</RegistryObjectList>
+</tns:SubmitObjectsRequest>

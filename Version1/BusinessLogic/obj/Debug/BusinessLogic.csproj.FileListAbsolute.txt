@@ -1,0 +1,13 @@
+E:\Crap\IHE\sourceCode\Version1\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+E:\Crap\IHE\sourceCode\Version1\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\Crap\IHE\sourceCode\Version1\BusinessLogic\bin\Debug\Microsoft.IHE.XDS.BusinessLogic.dll
+E:\Crap\IHE\sourceCode\Version1\BusinessLogic\bin\Debug\Microsoft.IHE.XDS.BusinessLogic.pdb
+E:\Crap\IHE\sourceCode\Version1\BusinessLogic\bin\Debug\Microsoft.IHE.XDS.Common.dll
+E:\Crap\IHE\sourceCode\Version1\BusinessLogic\bin\Debug\Microsoft.IHE.XDS.DataAccess.dll
+E:\Crap\IHE\sourceCode\Version1\BusinessLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Crap\IHE\sourceCode\Version1\BusinessLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Crap\IHE\sourceCode\Version1\BusinessLogic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Crap\IHE\sourceCode\Version1\BusinessLogic\bin\Debug\Microsoft.IHE.XDS.DataAccess.pdb
+E:\Crap\IHE\sourceCode\Version1\BusinessLogic\bin\Debug\Microsoft.IHE.XDS.Common.pdb
+E:\Crap\IHE\sourceCode\Version1\BusinessLogic\obj\Debug\Microsoft.IHE.XDS.BusinessLogic.dll
+E:\Crap\IHE\sourceCode\Version1\BusinessLogic\obj\Debug\Microsoft.IHE.XDS.BusinessLogic.pdb

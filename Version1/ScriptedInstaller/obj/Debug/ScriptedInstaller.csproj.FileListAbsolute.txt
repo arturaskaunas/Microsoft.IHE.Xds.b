@@ -1,0 +1,8 @@
+E:\Crap\IHE\sourceCode\Version1\ScriptedInstaller\bin\Debug\ScriptedInstaller.dll
+E:\Crap\IHE\sourceCode\Version1\ScriptedInstaller\bin\Debug\ScriptedInstaller.pdb
+E:\Crap\IHE\sourceCode\Version1\ScriptedInstaller\obj\Debug\Microsoft.IHE.XDS.ScriptedInstaller.resources
+E:\Crap\IHE\sourceCode\Version1\ScriptedInstaller\obj\Debug\ScriptedInstaller.csproj.GenerateResource.Cache
+E:\Crap\IHE\sourceCode\Version1\ScriptedInstaller\obj\Debug\ScriptedInstaller.csproj.CoreCompileInputs.cache
+E:\Crap\IHE\sourceCode\Version1\ScriptedInstaller\obj\Debug\ScriptedInstaller.dll
+E:\Crap\IHE\sourceCode\Version1\ScriptedInstaller\obj\Debug\ScriptedInstaller.pdb
+E:\Crap\IHE\sourceCode\Version1\ScriptedInstaller\obj\Debug\ScriptedInstaller.csprojResolveAssemblyReference.cache

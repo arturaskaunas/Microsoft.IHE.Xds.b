@@ -1,0 +1,12 @@
+E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\obj\Debug\XDSTestHarness.csprojResolveAssemblyReference.cache
+E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\obj\Debug\Microsoft.XDS.Test.frmMetadataConversion.resources
+E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\obj\Debug\Microsoft.XDS.Test.frmIheTstHarness.resources
+E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\obj\Debug\Microsoft.XDS.Test.frmUIDGenerator.resources
+E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\obj\Debug\Microsoft.XDS.Test.Properties.Resources.resources
+E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\obj\Debug\XDSTestHarness.csproj.GenerateResource.Cache
+E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\obj\Debug\XDSTestHarness.csproj.CoreCompileInputs.cache
+E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\bin\Debug\XDSTestHarness.exe.config
+E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\bin\Debug\XDSTestHarness.exe
+E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\bin\Debug\XDSTestHarness.pdb
+E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\obj\Debug\XDSTestHarness.exe
+E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\obj\Debug\XDSTestHarness.pdb
