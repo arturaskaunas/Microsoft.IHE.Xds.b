@@ -2,54 +2,59 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\Sample Messages\PatientRegistryDuplicatesResolved.xml</string>
+      <string>e:\crap\ihe\sourcecode\version1\testing\xdstestharness\sample messages\patientregistryduplicatesresolved.xml</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\Service References\XDSRegistry.map</string>
+      <string>e:\crap\ihe\sourcecode\version1\testing\xdstestharness\service references\xdsregistry.map</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\Service References\XDSRepository.map</string>
+      <string>e:\crap\ihe\sourcecode\version1\testing\xdstestharness\service references\xdsrepository.map</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\App.config</string>
+      <string>e:\crap\ihe\sourcecode\version1\testing\xdstestharness\app.config</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\DocumentRequest.cs</string>
+      <string>e:\crap\ihe\sourcecode\version1\testing\xdstestharness\documentrequest.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\Testing\XDSTestHarness\ProvideAndRegisterDocumentSetRequest.cs</string>
+      <string>e:\crap\ihe\sourcecode\version1\testing\xdstestharness\provideandregisterdocumentsetrequest.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\IHE\RepositoryProfile\DocumentRepositoryService.cs</string>
+      <string>e:\crap\ihe\sourcecode\version1\ihe\repositoryprofile\documentrepositoryservice.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\IHE\RepositoryProfile\IDocumentRepository.cs</string>
+      <string>e:\crap\ihe\sourcecode\version1\ihe\repositoryprofile\idocumentrepository.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\IHE\RepositoryProfile\Service References\XDSRegistry.map</string>
+      <string>e:\crap\ihe\sourcecode\version1\ihe\repositoryprofile\service references\xdsregistry.map</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\WindowsServices\XDSRegistryServiceHost\ProjectInstaller.cs</string>
+      <string>e:\crap\ihe\sourcecode\version1\windowsservices\xdsregistryservicehost\program.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\WindowsServices\XDSRegistryServiceHost\Program.cs</string>
+      <string>e:\crap\ihe\sourcecode\version1\windowsservices\xdsrepositoryservicehost\xdsrepositoryservicehost\program.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\WindowsServices\XDSRepositoryServiceHost\XDSRepositoryServiceHost\Program.cs</string>
+      <string>e:\crap\ihe\sourcecode\version1\windowsservices\xdsrepositoryservicehost\xdsrepositoryservicehost\schemas\ihexds.xsd</string>
+      <string>e:\crap\ihe\sourcecode\version1\windowsservices\xdsrepositoryservicehost\xdsrepositoryservicehost\schemas\ihexds.xsd</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\WindowsServices\XDSRepositoryServiceHost\XDSRepositoryServiceHost\Schemas\IHEXDS.xsd</string>
-      <string>E:\Crap\IHE\sourceCode\Version1\WindowsServices\XDSRepositoryServiceHost\XDSRepositoryServiceHost\Schemas\IHEXDS.xsd</string>
+      <string>e:\crap\ihe\sourcecode\version1\windowsservices\xdsrepositoryservicehost\xdsrepositoryservicehost\app.config</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\WindowsServices\XDSRepositoryServiceHost\XDSRepositoryServiceHost\App.config</string>
+      <string>e:\crap\ihe\sourcecode\version1\scriptedinstaller\scriptedinstaller.cs</string>
+      <string>e:\crap\ihe\sourcecode\version1\scriptedinstaller\scriptedinstaller.designer.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\ScriptedInstaller\ScriptedInstaller.cs</string>
-      <string>E:\Crap\IHE\sourceCode\Version1\ScriptedInstaller\ScriptedInstaller.Designer.cs</string>
+      <string>e:\crap\ihe\sourcecode\version1\windowsservices\xdsregistryservicehost\xdsdocumentregistryservicehost.cs</string>
+      <string>e:\crap\ihe\sourcecode\version1\windowsservices\xdsregistryservicehost\xdsdocumentregistryservicehost.cs</string>
+      <string>e:\crap\ihe\sourcecode\version1\windowsservices\xdsregistryservicehost\xdsdocumentregistryservicehost.designer.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>E:\Crap\IHE\sourceCode\Version1\WindowsServices\XDSRegistryServiceHost\App.config</string>
+      <string>e:\crap\ihe\sourcecode\version1\windowsservices\xdsrepositoryservicehost\xdsrepositoryservicehost\projectinstaller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>e:\crap\ihe\sourcecode\version1\windowsservices\xdsrepositoryservicehost\xdsrepositoryservicehost\xdsdocumentrepositoryservicehost.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

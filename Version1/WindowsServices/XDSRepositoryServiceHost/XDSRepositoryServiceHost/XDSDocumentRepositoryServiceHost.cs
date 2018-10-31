@@ -26,7 +26,6 @@ namespace Microsoft.IHE.XDS.DocumentRepository.XDSDocumentRepositoryServiceHost
         protected override void OnStart(string[] args)
         {
             string eventOutcomeIndicator = "0";
-
             try
             {
                 _serviceHost = new ServiceHost(typeof(DocumentRepositoryService));
