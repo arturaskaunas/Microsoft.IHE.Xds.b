@@ -1,4 +1,5 @@
 ﻿# Microsoft.IHE.Xds.b
+Taken from https://archive.codeplex.com/?p=ihe and upgraded to .net 4.5
 XDS.b Document Registry and Document Repository Solution Accelerator
 
 Cross-Enterprise Document Sharing XDS.b is a Microsoft Solution Accelerator based on the IHE (www.ihe.net) XDS.b integration profile. XDS.b facilitates the registration, distribution and access across health enterprises of patient electronic information in document format.
